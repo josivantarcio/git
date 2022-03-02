@@ -40,3 +40,5 @@ RESUMINDO..
 $git checkout : examina o commit anteriores
 
 $git push : sobe os arquivos para o github;
+
+$git pull : desce os arquivos para o repositorio local da maquina de produção;
