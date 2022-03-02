@@ -1,0 +1,3 @@
+Texto do arquivo. Bom Dia.
+Já foi feito o primeiro commit desse arquivo.
+Vamos fazer o terceiro commit, mas agora usando ao mesmo tempo o add e o commit.

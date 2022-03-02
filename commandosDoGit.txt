@@ -1,0 +1,40 @@
+$git init : para habilitar todos os arquivos para o repositório;
+
+$git config : configuração do usuario;
+            --system (para todos os usuario)
+            --global (para todos do projeto)
+            --local (somente para repositório local)
+        
+            user.name (nome do usuario)
+            user.email (email do usuario)
+            code.editor (personalizar o editor de commandos)
+
+        ex.:
+        $git config --global user.name josevan <- incluiu o nome do usuário
+        $git config --global user.email josivantarcio@gmail.com <- incluiu o email do usuario
+        $git config --global core.editor notepad <- incluiu o editor de commandos
+
+
+$git config --global -l : visualizar todas as configurações;
+
+$git add commandosDoGit.txt : adiciona o arquivo na area de monitoramento  (STAGED AREA), Ou seja, O GIT está monitorando as alterações do arquivo;
+$git add .                  : adiciona vários arquivos na area de monitoramento (STAGED AREA) de uma só vez;
+
+$git commit -m 'mensagem do commit' : tira uma foto do arquivo; toda vez que você faz um commit do arquivo, é feito uma nova foto;
+
+    Obs.:   (-m) comando de mensagem;
+            ('') area para colocar a mensagem;
+
+            No momento que tira uma foto(commit), é criado uma hashcode, assim você pode visualizar commits passados.
+            toda vez que voce faz uma alteração no arquivo, ele sai da area STAGED e aguarda o comando ADD!
+
+$git status : verificado o status do arquivo;
+
+$git commit -am 'colocar a mensagem aqui' : fazer o commit junto com add.
+
+RESUMINDO..
+    git init : cria a area de monitoramento dos arquivos;
+    git add  : adiciona o arquivo na area de monitoramento;
+    git commit : tira uma foto do arquivo;
+
+$git checkout : examina o commit anteriores
